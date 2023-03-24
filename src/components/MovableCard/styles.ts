@@ -1,7 +1,9 @@
-import styled from 'styled-components/native';
+import { StyleSheet } from 'react-native';
 
-export const Container = styled.View`
-    position: absolute;
-    left: 0;
-    right: 0;
-`;
+export const styles = StyleSheet.create({
+    container: {
+        position: 'absolute',
+        left: 0,
+        right: 0
+    }
+})
