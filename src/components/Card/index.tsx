@@ -1,8 +1,8 @@
 import {MaterialIcons} from '@expo/vector-icons';
 
-import * as S from './styles';
+import * as S  from './styles';
 
-// export const CARD_HEIGHT = HEIGHT + MARGIN_BOTTOM;
+export const CARD_HEIGHT = S.HEIGHT + S.MARGIN_BOTTOM;
 
 export type CardProps = {
     id: number;

@@ -1,18 +1,21 @@
 import styled from "styled-components/native";
 
+export const HEIGHT = 68;
+export const MARGIN_BOTTOM = 12;
+
 export const Container = styled.View`
+    width: 100%;
+    height: ${HEIGHT}px;
+    border-radius: ${MARGIN_BOTTOM}px;
+    background-color: #595959;
+    padding: 16px;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    background-color: #555555;
-    margin: 10px;
-    height: 60px;
-    border-radius: 12px;
-    padding: 15px;
 `;
 
 export const Label = styled.Text`
     color: #FFFFFF;
-    font-size: 22px;
+    font-size: 20px;
     font-weight: bold;
 `;
