@@ -2,7 +2,7 @@
 
 Hi 🖖🏽 this is an **animated sort list**, which was made with the aim of training animations using the gesture features within the app. The project was made with React Native using **Expo** and **Typescript**
 
-![Gif SortList](https://github.com/felipeamodio/SortListAnimated/blob/master/sortList.gif)
+![Gif SortList](https://github.com/felipeamodio/SortListAnimated/blob/main/sortList.gif)
 
 ## Libs
 
